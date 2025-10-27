@@ -27,11 +27,20 @@ In the folder, besides this explanatory README file, you can find:
 
 ## Results and Conclusions
 
-The analysis revealed that, as expected in a synthetic dataset, some variables are perfectly and strongly correlated, while others show almost no relationship even though such a connection would likely exist in real-world scenarios.
+The analysis revealed that, as expected in a synthetic dataset, some variables are perfectly and strongly correlated. In contrast, others show almost no relationship, even though such a connection would likely exist in real-world scenarios. Despite this limitation, it was exciting to observe how certain relationships produced logical and consistent results, reflecting realistic patterns of environmental influence on risk. It would have been great to perform the same analysis with real-world data, but after extensive research, I was unable to find a publicly available dataset on this topic that was both suitable and easy to interpret.
 
-Despite this limitation, it was very interesting to observe how certain relationships produced logical and consistent results, reflecting realistic patterns of environmental influence on risk.
+### Key Observations from the Dashboard
 
-It would have been great to perform the same analysis with real-world data, but after extensive research, I was unable to find a publicly available dataset on this topic that was both suitable and easy to interpret.
+- **Overall KPIs:**  
+  At the top of the dashboard, key indicators show the average pollution score, the total number of individuals in risk situations due to pollution, and the percentage of the population without access to natural spaces. These KPIs provide context for the rest of the analysis.
+
+- **Left Panel – Risk vs Environment:**  
+  - The probability of living in an **urban environment** is noticeably higher for individuals in **high-risk** situations compared to those in **low-risk** situations, suggesting a direct relationship between risk level and residential environment.  
+  - The average number of nearby industries for high-risk individuals exceeds 4, while for low-risk individuals it is below 1. Other environmental and lifestyle factors also show higher values for high-risk individuals than for low-risk ones.
+
+- **Right Panel – Insights by Residential Area:**  
+  - The **pollution score** is consistently higher for individuals living in **urban areas** compared to **semi-urban** and **rural areas**.  
+  - This confirms that the living environment strongly influences exposure and risk patterns, supporting the observations from the left panel.
 
 ---
 
